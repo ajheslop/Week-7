@@ -1,0 +1,150 @@
+body {
+    background-color: lightgrey;
+    margin-top: 0px;
+}
+
+li.ulclass1 {
+    color: blue;
+}
+
+ul.ulclass1 {
+    background-color: pink;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    margin-top: -10px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+
+li {
+    border-right: 1px solid #bbb;
+    float: left;
+}
+
+list-group:last-child .list-group-item:last-child {
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem
+}
+
+.card-body {
+    min-height: 1px;
+    width: auto;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: #ffffff;
+    max-width: 50%;
+    padding: 15px;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+.container {
+    padding: 10px 40px;
+    margin-left: 75px;
+    background-color: white;
+    margin-right: 75px;
+}
+
+.mainrow {
+    height: 110%;
+}
+
+.img {
+    height: auto;
+}
+
+.img-pic {
+    width: 100%;
+}
+
+ul.demo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+.card-img-top {
+    margin: auto;
+    width: auto;
+    padding: 10px;
+}
+
+.card-title {
+    width: auto;
+    padding: 10px;
+}
+
+.card {
+    margin: auto;
+    width: auto;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: 2px solid #feb236;
+    border-radius: 4px;
+}
+
+
+}
+div.container {
+    margin: auto;
+    width: 35%;
+}
+.col {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    margin-top: 50px;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+}
+
+}
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
